@@ -1,0 +1,41 @@
+
+<div>
+  <form class="form-signin" #data="ngForm" (ngSubmit)="onSubmit(data.value)">
+
+
+
+    <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
+
+    <ng-template>
+      <P  class="h4 mb-3 ">Password and username in-correct</P>
+    </ng-template>
+    <label for="inputEmail" class="sr-only">Email address</label>
+    <input
+      type="email"
+      name="email"
+      id="inputEmail"
+      class="form-control"
+      placeholder="Email address"
+      required
+      autofocus
+      ngModel
+    />
+    <label for="inputPassword" class="sr-only">Password</label>
+    <input
+      type="password"
+      name="password"
+      id="inputPassword"
+      class="form-control"
+      placeholder="Password"
+      required
+      ngModel
+    />
+    <div class="checkbox mb-3"></div>
+    <button class="btn btn-lg btn-primary btn-block" type="submit">
+      Sign in
+
+    </button>
+    <p class="mt-5 mb-3 text-muted">&copy; 2020-2021</p>
+  </form>
+</div>
+

@@ -1,0 +1,13 @@
+.notification-wrapper {
+  margin-left: auto;
+}
+ .active{
+  background-color: black ;
+
+}
+.container {
+  color:white;
+}
+.navbar-nav{
+  color:white;
+}

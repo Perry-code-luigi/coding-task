@@ -1,0 +1,6 @@
+.notification-wrapper {
+  margin-left: auto;
+}
+ .active > a {
+  background-color: black ;
+}

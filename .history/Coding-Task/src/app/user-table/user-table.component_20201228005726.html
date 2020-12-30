@@ -1,0 +1,21 @@
+<app-filter></app-filter>
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">name</th>
+      <th scope="col">username</th>
+      <th scope="col">email</th>
+      <th scope="col">lat</th>
+      <th scope="col">long</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let user of userdata; ">
+     <td>{{user.name}}</td>
+     <td>{{user.username}}</td>
+     <td>{{user.email}}</td>
+     <td>{{user.address.geo.lat}}</td>
+     <td>{{user.address.geo.lng}}</td>
+    </tr>
+  </tbody>
+</table>

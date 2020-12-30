@@ -1,0 +1,86 @@
+
+<div class="row ">
+  <div class="col-md-8 offset-md-2">
+  <form class="form-signin" #data="ngForm" (ngSubmit)="onSubmit(data.value)">
+
+
+    <div class="row">
+      <div class="col-md-8 mx-auto">
+    <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
+      </div>
+    </div>
+    <ng-template>
+      <P  class="h4 mb-3 ">Password and username in-correct</P>
+    </ng-template>
+    <label for="inputEmail" class="sr-only">Email address</label>
+    <input
+      type="email"
+      name="email"
+      id="inputEmail"
+      class="form-control"
+      placeholder="Email address"
+      required
+      autofocus
+      ngModel
+    />
+    <label for="inputPassword" class="sr-only">Password</label>
+    <input
+      type="password"
+      name="password"
+      id="inputPassword"
+      class="form-control"
+      placeholder="Password"
+      required
+      ngModel
+    />
+    <div class="checkbox mb-3"></div>
+    <button class="btn btn-lg btn-primary btn-block" type="submit">
+      Sign in
+
+    </button>
+    <p class="mt-5 mb-3 text-muted">&copy; 2020-2021</p>
+  </form>
+</div>
+</div>
+
+
+<div class="row">
+  <div class="col-md-8 offset-md-2">
+    <h3>Look! I am Centered Horizontally</h3>
+  </div>
+</div>
+
+
+
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+        <div class="card card-signin my-5">
+          <div class="card-body">
+            <h5 class="card-title text-center">Sign In</h5>
+            <form class="form-signin">
+              <div class="form-label-group">
+                <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+                <label for="inputEmail">Email address</label>
+              </div>
+
+              <div class="form-label-group">
+                <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+                <label for="inputPassword">Password</label>
+              </div>
+
+              <div class="custom-control custom-checkbox mb-3">
+                <input type="checkbox" class="custom-control-input" id="customCheck1">
+                <label class="custom-control-label" for="customCheck1">Remember password</label>
+              </div>
+              <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Sign in</button>
+             </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+

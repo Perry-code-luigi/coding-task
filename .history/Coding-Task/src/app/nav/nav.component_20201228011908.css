@@ -1,0 +1,10 @@
+.notification-wrapper {
+  margin-left: auto;
+}
+ .active{
+  background-color: black ;
+
+}
+.navbar .navbar-expand-lg .navbar-light .bg-primary{
+  color:white;
+}
